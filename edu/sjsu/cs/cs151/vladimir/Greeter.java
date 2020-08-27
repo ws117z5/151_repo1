@@ -25,6 +25,44 @@ public class Greeter {
       return "Hello, " + name + "!";
    }
 
+   public void drawQuote() {
+      System.out.println(
+       "   _______________________________   \n"
+      +"  |                               |   \n"
+      +"  |         Unlike Java,          |   \n"
+      +"  |   Go and other new languages  |   \n"
+      +"  |          Allow you            |   \n"
+      +"  |  To use multiline strings     |   \n"
+      +"  |                               |   \n"
+      +"  |          But what does        |   \n"
+      +"  |      A stupid Gopher knows    |   \n"
+      +"  |      Less then John Snow      |   \n"
+      +"  |_______________________________|   \n"
+      +"   (       )   \n"
+      +"      (   )   \n"
+      +"        ( )   \n"
+      +"         ( )   \n"
+      +"           ()   ");
+   }
+
+   public void drawGopher() {
+      String askiiGopher = 
+      "       ,_---~~~~~----._\n"       
+      +" _,,_,*^____      _____``*g*\"*, \n"
+     +"/ __/ /'     ^.  /      \\ ^@q   f\n"
+    +"[  @f | @))    |  | @))   l  0 _/  \n"
+    +" \\`/   \\~____ / __ \\_____/    \\   \n"
+    +"  |           _l__l_           I   \n"
+    +"  }          [______]           I  \n"
+    +"  ]            | | |            |  \n"
+    +"  ]             ~ ~             |  \n"
+    +"  |                            |   \n"
+    +"   |                           |   \n\n\n"
+    +"Tanks to github.com/belbomemo for the askii version of gopher";
+
+      System.out.println(askiiGopher);
+   }
+
    private String name;
 }
 
